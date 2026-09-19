@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sushanth Donthula - Portfolio</title>
+  <title>Sushanth Donthula - ISM Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -26,88 +26,117 @@
 
     <!-- Main Content -->
     <main class="main-content">
-      <!-- Navigation Tabs -->
+      <!-- 8 Required Navigation Tabs -->
       <nav class="nav-tabs">
-        <button class="tab-btn active" onclick="openTab(event, 'about')">About</button>
-        <button class="tab-btn" onclick="openTab(event, 'works')">Works</button>
-        <button class="tab-btn" onclick="openTab(event, 'skills')">Skills</button>
-        <button class="tab-btn" onclick="openTab(event, 'experience')">Experience</button>
-        <button class="tab-btn" onclick="openTab(event, 'contact')">Contact</button>
+        <button class="tab-btn active" onclick="openTab(event, 'home')">Home</button>
+        <button class="tab-btn" onclick="openTab(event, 'about')">About Me</button>
+        <button class="tab-btn" onclick="openTab(event, 'resume')">Résumé</button>
+        <button class="tab-btn" onclick="openTab(event, 'about-ism')">About ISM</button>
+        <button class="tab-btn" onclick="openTab(event, 'mentor-bio')">Mentor Bio</button>
+        <button class="tab-btn" onclick="openTab(event, 'research')">Research</button>
+        <button class="tab-btn" onclick="openTab(event, 'blog')">Blog</button>
+        <button class="tab-btn" onclick="openTab(event, 'projects')">Projects</button>
       </nav>
 
-      <!-- About Section -->
-      <section id="about" class="tab-content active">
+      <!-- 1. HOME TAB -->
+      <section id="home" class="tab-content active">
+        <h1>Sushanth Donthula</h1>
+        <h3>Topic of Study: Semiconductor Design ~ Electrical Engineering</h3>
+        <br>
+        <blockquote style="border-left: 4px solid #ffffff; padding-left: 15px; font-style: italic;">
+          "I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times."
+          <br>— Bruce Lee
+        </blockquote>
+      </section>
+
+      <!-- 2. ABOUT ME TAB -->
+      <section id="about" class="tab-content">
         <h1>About Me</h1>
-        <p>I am a passionate engineering student studying at Lebanon Trail High School with a strong focus on math, physics, engineering, computer science, and digital electronics. I enjoy solving complex logic problems and building computer programs.</p>
+        <p>I am a passionate engineering student studying at Lebanon Trail High School with a strong focus on math, physics, electrical engineering, computer science, and digital electronics.</p>
+        <br>
+        <h3>Mission Statement</h3>
+        <p>My mission is to be a person who upholds the values of honesty, integrity, and responsibility and to passionately work towards building a good product here at ISM.</p>
         <br>
         <h3>Education</h3>
         <p><strong>Lebanon Trail High School, Frisco ISD</strong> (August 2024 – Current)</p>
         <p><em>Relevant Coursework:</em> PLTW Principles of Engineering, Intro to Engineering, Digital Electronics, AP Physics 1, AP Physics C, AP Calculus, AP Precalculus</p>
+        <br>
+        <h3>Contact Information</h3>
+        <p><strong>Location:</strong> Plano, TX 75024</p>
+        <p><strong>Email:</strong> sushanthdonthula29@gmail.com</p>
+        <p><strong>Phone:</strong> 945-308-4477</p>
       </section>
 
-      <!-- Works Section -->
-      <section id="works" class="tab-content">
-        <h1>Projects & Engineering Works</h1>
+      <!-- 3. RÉSUMÉ TAB -->
+      <section id="resume" class="tab-content">
+        <h1>Résumé</h1>
+        <p>Click below to view or download my official résumé:</p>
+        <br>
+        <a href="https://docs.google.com/document/d/1OZFcaTMQgj6Gt23oJNvMN77C2YhxW5BkS50bXBcTYSA/edit?usp=sharing" target="_blank" class="btn">View / Download PDF Résumé</a>
+      </section>
+
+      <!-- 4. ABOUT ISM TAB -->
+      <section id="about-ism" class="tab-content">
+        <h1>About the ISM Program</h1>
+        <p>Frisco ISD’s Independent Study and Mentorship (ISM) program is a rigorous course for which high-achieving students apply, interview, and earn recommendations during their junior or senior year. Students focus their study on a self-selected career topic, conducting professional interviews and developing an extensive research portfolio.</p>
+        <br>
+        <p>Throughout the course, students refine time management, public speaking, research, and soft skills. During the spring semester, students collaborate with a professional mentor in their field of interest to gain real-world experience and build an advanced final product presented in May.</p>
+      </section>
+
+      <!-- 5. MENTOR BIO TAB -->
+      <section id="mentor-bio" class="tab-content">
+        <h1>Mentor Bio</h1>
+        <p><em>Information and mentor biography will be updated upon mentor selection during the placement process.</em></p>
+      </section>
+
+      <!-- 6. RESEARCH TAB -->
+      <section id="research" class="tab-content">
+        <h1>Research & Assessments</h1>
+        
         <div class="project-card">
-          <h3>Line Following Robot</h3>
-          <p>Constructed an autonomous line-following robot utilizing Arduino, object-oriented programming, 2D arrays, and basic mechatronics. Earned over 100+ Project-Based Learning hours.</p>
+          <h3>Assessment #1: Industry Trends & Future Outlook</h3>
+          <p><strong>AI Data Center Power: Grid Limits Reshape Energy in 2026</strong></p>
+          <p>Investigated how global AI energy demands are driving a projected 26% increase in energy consumption[cite: 11]. Evaluated hardware bottlenecks, heat dissipation constraints, and the industry shift from monolithic scaling to 2.5D/3D chiplet packaging architectures[cite: 11].</p>
         </div>
         <br>
         <div class="project-card">
-          <h3>Wells Fargo Software Engineering Job Simulation</h3>
-          <p>Completed hands-on software development simulations on Forage (March 2026):</p>
+          <h3>Assessment #2: Annotated Bibliography</h3>
           <ul>
-            <li>Task 1: Developed data models using Miro for visual system planning.</li>
-            <li>Task 2: Created models in Java using IntelliJ IDEA.</li>
+            <li><strong>GaN Power Devices for AI Data Centers:</strong> Evaluated Gallium Nitride (GaN) power converter architectures for thermal density and power efficiency[cite: 12].</li>
+            <li><strong>Theory of Deep Learning:</strong> Studied mathematical frameworks for "learning mechanics" in neural networks across diverse architectures[cite: 12].</li>
+            <li><strong>Lensless Imaging Systems:</strong> Analyzed mask-based computational encoders used to capture visual data without traditional physical lenses[cite: 12].</li>
+            <li><strong>Monolayer WSe2 p-Type FETs:</strong> Examined strain engineering in 2D p-type transistors to boost hole mobility as a potential silicon replacement[cite: 12].</li>
+            <li><strong>Thermal Latch in GaN Multichannel Devices:</strong> Reviewed sub-60-mV/dec switching behavior engineered through micro-fin thermal latching for radiofrequency applications[cite: 12].</li>
           </ul>
         </div>
       </section>
 
-      <!-- Skills Section -->
-      <section id="skills" class="tab-content">
-        <h1>Skills & Certifications</h1>
-        <h3>Technical Skills</h3>
-        <ul>
-          <li><strong>Programming:</strong> Python, Java, PHP, HTML</li>
-          <li><strong>Engineering & Modeling:</strong> AutoCAD Modeling, Mechatronics, Arduino, Digital Electronics</li>
-          <li><strong>Core Competencies:</strong> Logic Interpretation, Data Analysis, Problem Solving, Digital Literacy</li>
-        </ul>
+      <!-- 7. BLOG TAB (Newest to Oldest) -->
+      <section id="blog" class="tab-content">
+        <h1>Weekly Blogs</h1>
+
+        <article class="project-card">
+          <h3>Blog #2: Challenging Weeks, Meaningful Wins</h3>
+          <p><em>September 2026</em></p>
+          <p>The past two weeks were fast-paced and demanding due to a heavy exam workload[cite: 9]. From my presentations, I learned to pace my speaking, control vocal modulation, and use deliberate pauses rather than verbal fillers[cite: 9]. Outside of class, I finalized my portfolio website and narrowed down my target subfields in semiconductor manufacturing[cite: 9]. Additionally, I was accepted into the New York Academy of Sciences (NYAS) Junior Academy, where I look forward to collaborating on STEM team projects[cite: 9].</p>
+        </article>
         <br>
-        <h3>Certifications & Awards</h3>
-        <ul>
-          <li><strong>NASA Open Science Essentials</strong> – Certificate of Achievement (Sep 2026)</li>
-          <li>Wells Fargo Software Engineering Job Simulation (Forage - March 2026)</li>
-          <li>District Level Chess Champion</li>
-          <li>Music Pandit Level 1 & Level 2 (Passed with Distinction)</li>
-          <li>Green Belt in Karate</li>
-          <li>Seal of Biliteracy</li>
-        </ul>
+        <article class="project-card">
+          <h3>Blog #1: Tumultuous Course</h3>
+          <p><em>September 2026</em></p>
+          <p>Facing a surprisingly difficult physics test challenged my initial expectations and triggered anxiety about academic performance[cite: 10]. Reflecting on this experience led me to explore Stoicism, which emphasizes grounding oneself, accepting reality, and maintaining emotional self-control[cite: 10]. Applying stoic principles provides a structured perspective for handling complex challenges both academically and in everyday life[cite: 10].</p>
+        </article>
       </section>
 
-      <!-- Experience Section -->
-      <section id="experience" class="tab-content">
-        <h1>Leadership & Experience</h1>
-        <h3>NSTEM Member</h3>
-        <p>Active member contributing to hands-on mechatronics projects and technical skill development.</p>
+      <!-- 8. PROJECTS TAB -->
+      <section id="projects" class="tab-content">
+        <h1>Projects</h1>
+        
+        <h3>Original Work</h3>
+        <p><em>Documentation for Original Work will be posted during the Fall semester.</em></p>
         <br>
-        <h3>STEM Tutor & Community Volunteer</h3>
-        <p>Volunteered 100+ hours tutoring students in STEM subjects and leading volunteer teams across local institutions:</p>
-        <ul>
-          <li>Frisco Public Library</li>
-          <li>Frisco Discovery Center</li>
-          <li>Hanuman Temple</li>
-          <li>Save for Tomorrow (10+ hours)</li>
-        </ul>
-      </section>
-
-      <!-- Contact Section -->
-      <section id="contact" class="tab-content">
-        <h1>Let's Connect</h1>
-        <p>Feel free to reach out to me via email or phone:</p>
-        <br>
-        <p><strong>Email:</strong> <a href="mailto:sushanthdonthula29@gmail.com" style="color: #ffffff; text-decoration: underline;">sushanthdonthula29@gmail.com</a></p>
-        <p><strong>Phone:</strong> <a href="tel:9453084477" style="color: #ffffff; text-decoration: none;">945-308-4477</a></p>
-        <p><strong>Location:</strong> Plano, TX 75024</p>
+        <h3>Final Product</h3>
+        <p><em>Documentation for Final Product will be posted during the Spring mentorship semester.</em></p>
       </section>
     </main>
   </div>
